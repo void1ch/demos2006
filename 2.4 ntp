@@ -3,10 +3,6 @@ isp
 apt install chrony -y
 
 nano /etc/chrony/chrony.conf
-комментим 
-pool 2.debian.pool.ntp.org iburst
-добовляем
-server 127.0.0.1 iburst prefer
 local stratum 5
 allow 0/0
 
